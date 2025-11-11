@@ -1,0 +1,50 @@
+[{
+    "name": "Pirate Bay",
+    "url": "https://apibay.org/q.php?cat=200&q=%s",
+    "type": "json",
+    "itemType": "info_hash",
+    "infoHashTargetKey": "info_hash",
+    "torrentNameTargetKey": "name"
+  },
+     {
+    "name":"YTS",
+    "url":"https://yts.mx/api/v2/list_movies.json?query_term=%imdbId",
+    "type":"json_imdb",
+    "imdbType":"movie",
+    "infoHashTargetKey":"hash",
+    "itemType":"info_hash",
+    "jsonResultsKey":"data.movies[0].torrents",
+    "torrentNameTargetKey":"title"
+  },
+  {
+    "name":"CloudTorrent",
+    "url":"https://cloudtorrents.com/search?ordering=-uploaded&query=%s",
+    "type":"html",
+    "magnetTargetKey":"tbody a[href^='magnet']|href",
+    "itemType":"magnet"
+  },
+  {
+    "name": "Lime-Torrents",
+    "url": "https://www.limetorrents.lol/search/all/%s",
+    "type": "html",
+    "infoHashTargetKey": ".tt-name a[href^='http://itorrents.org']|href",
+    "infoHashRegExp": "http:\\/\\/itorrents\\.org\\/torrent\\/([^/]+)\\.torrent",
+    "torrentNameTargetKey": ".tt-name a[href^='/']|text",
+    "itemType": "info_hash"
+  },
+  {
+    "name": "Torrents-CSV",
+    "url": "https://torrents-csv.com/service/search?size=50&q=%s",
+    "type": "json",
+    "infoHashTargetKey": "infohash",
+    "itemType": "info_hash",
+    "jsonResultsKey": "torrents",
+    "torrentNameTargetKey": "name"
+  },
+  {
+    "name": "Bit-Search",
+    "url": "https://bitsearch.to/search?q=%s",
+    "type": "html",
+    "magnetTargetKey": ".search-result a[href^='magnet']|href",
+    "itemType": "magnet"
+  }]

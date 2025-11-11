@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Zilean",
+    "searchPattern": {
+      "movie": "ImdbId=%imdbId&Year=%year",
+      "tv": "ImdbId=%imdbId&Season=%season&Episode=%episode"
+    },
+    "url": "https://zilean.elfhosted.com/dmm/filtered?%searchPattern",
+    "type": "json_imdb",
+    "itemType": "info_hash",
+    "infoHashTargetKey": "info_hash",
+    "torrentNameTargetKey": "raw_title",
+    "sizeAttr": "size"
+  },
+  {
+    "name": "Mediafusion",
+    "searchPattern": {
+      "movie": "movie/%imdbId",
+      "tv": "series/%oldImdbSearchId"
+    },
+    "url": "https://mediafusion.elfhosted.com/D-h5XZdc-GKj9tvLuwtL8S-h3Y5RyeMAHw8N_VRjmeON2p2lxdB57OCbAAseop_Rlc5ILHWBji7SX7NX6oG80KBfZpxxzuS-BJLzjSSrxaMhDUzPple7XCZlJq0KkZhF3LpgW78jw2yPHvczj5rZxxbsjwt1VgjkbAcCWyTOPYA-mQSWcYzi-_SVwHNkiKT0HHczOrUzQUOoN9p9G0y6kXqNrzU9Dil1qqGp3MdJrmK_L8li3-9LRvp0bNdtA7_cnhzTPse0vgbcEQKJMLbJwahDnEoaiDfr1jYFPtvaVjFKywts-nU6aXDfGouyXphOhrrgvUJr9UTdGU8zm-c3dKyfiwIJ5zCpBfg1gPESl-67TsResyGmzCYL5fzsXdYGFObUcouAsIZMznN4W96XsJYERj9EC_Yrvz5dvnvWNtWEPJlKHV8H1cLfP15iJQEFGdg33otL9HSUk0TmQlZKsvf-gHHLCzMk4y-Tb1gqoQRTk/stream/%searchPattern.json",
+    "type": "json_imdb",
+    "imdbType": "movie",
+    "infoHashTargetKey": "infoHash",
+    "itemType": "info_hash",
+    "jsonResultsKey": "streams",
+    "torrentNameTargetKey": "behaviorHints.filename",
+    "sizeAttr": "behaviorHints.videoSize"
+  },
+  {
+    "name": "Torrentio",
+    "searchPattern": {
+      "movie": "movie/%imdbId",
+      "tv": "series/%oldImdbSearchId"
+    },
+    "url": "https://torrentio.strem.fun/sort=qualitysize|limit=7/stream/%searchPattern.json",
+    "type": "json_imdb",
+    "imdbType": "tv",
+    "infoHashTargetKey": "infoHash",
+    "itemType": "info_hash",
+    "jsonResultsKey": "streams",
+    "torrentNameTargetKey": "title"
+  }
+]

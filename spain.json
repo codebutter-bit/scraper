@@ -1,0 +1,15 @@
+[ {
+    "name": "Peerflix",
+    "searchPattern": {
+      "movie": "movie/%imdbId",
+      "tv": "series/%imdbId:%season:%episode"
+    },
+    "url": "https://peerflix.mov/stream/%searchPattern.json",
+    "type": "json_imdb",
+    "imdbType": "movie",
+    "infoHashTargetKey": "infoHash",
+    "itemType": "info_hash",
+    "jsonResultsKey": "streams",
+    "torrentNameTargetKey": "description",
+    "sizeAttr": "sizebytes"
+  }]
