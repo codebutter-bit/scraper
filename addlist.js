@@ -14,7 +14,7 @@ const addonList = [
      {
     title: "Pure Fire",
     logo: "https://cdn-icons-png.flaticon.com/512/10760/10760659.png",
-    description: "Far more sources",
+    description: "A lot more sources!",
     link: "https://raw.githubusercontent.com/codebutter-bit/scraper/refs/heads/main/PureFire.json",
   },
   // {
@@ -56,6 +56,7 @@ const addonList = [
   //   link: "https://raw.githubusercontent.com/codebutter-bit/scraper/refs/heads/main/torentio-en.json",
   // },
 ];
+
 
 
 
