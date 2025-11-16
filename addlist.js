@@ -12,10 +12,10 @@ const addonList = [
     link: "https://raw.githubusercontent.com/codebutter-bit/scraper/refs/heads/main/LightningFast.json",
   },
      {
-    title: "Slow Burn",
+    title: "Pure Fire",
     logo: "https://cdn-icons-png.flaticon.com/512/10760/10760659.png",
     description: "More results but not as fast",
-    link: "https://raw.githubusercontent.com/codebutter-bit/scraper/refs/heads/main/SlowBurn.json",
+    link: "https://raw.githubusercontent.com/codebutter-bit/scraper/refs/heads/main/PureFire.json",
   },
   // {
   //   title: "Ultra-Fast",
@@ -56,6 +56,7 @@ const addonList = [
   //   link: "https://raw.githubusercontent.com/codebutter-bit/scraper/refs/heads/main/torentio-en.json",
   // },
 ];
+
 
 
 
