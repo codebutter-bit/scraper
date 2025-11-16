@@ -38,7 +38,7 @@ const addonList = [
   {
     title: "Spanish",
     logo: "./images/spanish.png",
-    description: "Peerflix and Torrentio!",
+    description: "More spanish sources",
     link: "https://raw.githubusercontent.com/codebutter-bit/scraper/refs/heads/main/spanish.json",
   }
   // ,
@@ -56,6 +56,7 @@ const addonList = [
   //   link: "https://raw.githubusercontent.com/codebutter-bit/scraper/refs/heads/main/torentio-en.json",
   // },
 ];
+
 
 
 
