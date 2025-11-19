@@ -43,5 +43,19 @@
       "tv": "series/%imdbId:%season:%episode"
     },
     "url": "https://mediafusion.elfhosted.com/D-mgiVOlhrq7BpXFyvhkNZOZxt3Tlc0eC0WoZeRkwi9CJdlVJ5ybgEQncIW5yi3sbiUxVmxkObwz883q-l-xH9QtGkjI4mMLP7omPTqEQq3PRsCFlwOPPhb3AUEVw8jRWb/stream/%searchPattern.json"
+  },
+   {
+    "name": "Zilean",
+    "type": "json_imdb",
+    "imdbType": "tv",
+    "itemType": "info_hash",
+    "infoHashTargetKey": "info_hash",
+    "torrentNameTargetKey": "raw_title",
+    "sizeAttr": "size",
+    "searchPattern": {
+      "movie": "ImdbId=%imdbId&Year=%year",
+      "tv": "ImdbId=%imdbId&Season=%season&Episode=%episode"
+    },
+    "url": "https://zilean.elfhosted.com/dmm/filtered?%searchPattern"
   }
 ]
