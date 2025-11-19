@@ -1,17 +1,32 @@
 [
   {
-    "name": "Comet",
+    "name": "Torrentio",
     "type": "json_imdb",
     "imdbType": "tv",
     "itemType": "info_hash",
     "infoHashTargetKey": "infoHash",
     "jsonResultsKey": "streams",
-    "torrentNameTargetKey": "description",
+    "torrentNameTargetKey": "title",
     "sizePattern": "💾\\s*([\\d.]+)\\s*(GB|MB)",
     "searchPattern": {
       "movie": "movie/%imdbId",
       "tv": "series/%imdbId:%season:%episode"
     },
-    "url": "https://comet.elfhosted.com/eyJtYXhSZXN1bHRzUGVyUmVzb2x1dGlvbiI6MCwibWF4U2l6ZSI6MCwiY2FjaGVkT25seSI6ZmFsc2UsInJlbW92ZVRyYXNoIjp0cnVlLCJyZXN1bHRGb3JtYXQiOlsiYWxsIl0sImRlYnJpZFNlcnZpY2UiOiJ0b3JyZW50IiwiZGVicmlkQXBpS2V5IjoiIiwiZGVicmlkU3RyZWFtUHJveHlQYXNzd29yZCI6IiIsImxhbmd1YWdlcyI6eyJleGNsdWRlIjpbXSwicHJlZmVycmVkIjpbXX0sInJlc29sdXRpb25zIjp7fSwib3B0aW9ucyI6eyJyZW1vdmVfcmFua3NfdW5kZXIiOi0xMDAwMDAwMDAwMCwiYWxsb3dfZW5nbGlzaF9pbl9sYW5ndWFnZXMiOmZhbHNlLCJyZW1vdmVfdW5rbm93bl9sYW5ndWFnZXMiOmZhbHNlfX0=/stream/%searchPattern.json"
+    "url": "https://torrentio.strem.fun/sort=qualitysize|limit=7/stream/%searchPattern.json"
+  },
+    {
+    "name": "AIOstreams",
+    "type": "json_imdb",
+    "imdbType": "tv",
+    "itemType": "info_hash",
+    "infoHashTargetKey": "infoHash",
+    "jsonResultsKey": "streams",
+    "sizeAttr": "behaviorHints.videoSize",
+    "torrentNameTargetKey": "behaviorHints.filename",
+    "searchPattern": {
+      "movie": "movie/%imdbId",
+      "tv": "series/%imdbId:%season:%episode"
+    },
+    "url": "https://aiostreams.elfhosted.com/stremio/520912eb-b713-475a-993f-01b70fcb2bc7/eyJpdiI6IllISUZETjZUZm9WU1NuR0xyWlJ6M0E9PSIsImVuY3J5cHRlZCI6Ikp4M3RVVDJITkJibG1UWlZlU2dzYnFzb1E4aThCK1Z6dVNTUWhSejREYk09IiwidHlwZSI6ImFpb0VuY3J5cHQifQ/stream/%searchPattern.json"
   }
 ]
