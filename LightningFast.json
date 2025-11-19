@@ -28,5 +28,19 @@
       "tv": "series/%imdbId:%season:%episode"
     },
     "url": "https://torrentio.strem.fun/sort=qualitysize|limit=7/stream/%searchPattern.json"
+  },
+   {
+    "name": "Zilean",
+    "type": "json_imdb",
+    "imdbType": "tv",
+    "itemType": "info_hash",
+    "infoHashTargetKey": "info_hash",
+    "torrentNameTargetKey": "raw_title",
+    "sizeAttr": "size",
+    "searchPattern": {
+      "movie": "ImdbId=%imdbId&Year=%year",
+      "tv": "ImdbId=%imdbId&Season=%season&Episode=%episode"
+    },
+    "url": "https://zilean.elfhosted.com/dmm/filtered?%searchPattern"
   }
 ]
