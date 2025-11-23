@@ -1,17 +1,17 @@
 [
-    {
-    "name": "AIOstreams",
+  {
+    "name": "Torrentio",
     "type": "json_imdb",
     "imdbType": "tv",
     "itemType": "info_hash",
     "infoHashTargetKey": "infoHash",
     "jsonResultsKey": "streams",
-    "sizeAttr": "behaviorHints.videoSize",
-    "torrentNameTargetKey": "behaviorHints.filename",
+    "torrentNameTargetKey": "title",
+    "sizePattern": "💾\\s*([\\d.]+)\\s*(GB|MB)",
     "searchPattern": {
       "movie": "movie/%imdbId",
       "tv": "series/%imdbId:%season:%episode"
     },
-    "url": "https://aiostreams.elfhosted.com/stremio/520912eb-b713-475a-993f-01b70fcb2bc7/eyJpdiI6IllISUZETjZUZm9WU1NuR0xyWlJ6M0E9PSIsImVuY3J5cHRlZCI6Ikp4M3RVVDJITkJibG1UWlZlU2dzYnFzb1E4aThCK1Z6dVNTUWhSejREYk09IiwidHlwZSI6ImFpb0VuY3J5cHQifQ/stream/%searchPattern.json"
+    "url": "https://torrentio.strem.fun/sort=qualitysize|limit=7/stream/%searchPattern.json"
   }
 ]
