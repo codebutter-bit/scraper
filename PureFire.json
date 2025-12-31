@@ -27,7 +27,7 @@
       "movie": "movie/%imdbId",
       "tv": "series/%imdbId:%season:%episode"
     },
-    "url": "https://mediafusion.elfhosted.com/D-mgiVOlhrq7BpXFyvhkNZOZxt3Tlc0eC0WoZeRkwi9CJdlVJ5ybgEQncIW5yi3sbiUxVmxkObwz883q-l-xH9QtGkjI4mMLP7omPTqEQq3PRsCFlwOPPhb3AUEVw8jRWb/stream/%searchPattern.json"
+    "url": "https://mediafusion.stremio.ru/D-O-PRtIlT9CguktYY3tijszoa1Gk0cLDGgSY5wBHepOVEGErg1Nezgyn06Cl21F1pYM-37Mu2_jDTL7qf-LZGCg/stream/%searchPattern.json"
   },
    {
     "name": "Zilean",
