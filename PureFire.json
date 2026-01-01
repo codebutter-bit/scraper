@@ -29,20 +29,6 @@
     },
     "url": "https://mediafusion.stremio.ru/D-O-PRtIlT9CguktYY3tijszoa1Gk0cLDGgSY5wBHepOVEGErg1Nezgyn06Cl21F1pYM-37Mu2_jDTL7qf-LZGCg/stream/%searchPattern.json"
   },
-   {
-    "name": "Zilean",
-    "type": "json_imdb",
-    "imdbType": "tv",
-    "itemType": "info_hash",
-    "infoHashTargetKey": "info_hash",
-    "torrentNameTargetKey": "raw_title",
-    "sizeAttr": "size",
-    "searchPattern": {
-      "movie": "ImdbId=%imdbId&Year=%year",
-      "tv": "ImdbId=%imdbId&Season=%season&Episode=%episode"
-    },
-    "url": "https://zilean.elfhosted.com/dmm/filtered?%searchPattern"
-  },
     {
     "name": "Stremthru",
     "type": "json_imdb",
