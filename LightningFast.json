@@ -42,5 +42,20 @@
       "tv": "ImdbId=%imdbId&Season=%season&Episode=%episode"
     },
     "url": "https://zilean.elfhosted.com/dmm/filtered?%searchPattern"
+  },
+    {
+    "name": "Stremthru",
+    "type": "json_imdb",
+    "imdbType": "movie",
+    "itemType": "info_hash",
+    "infoHashTargetKey": "infoHash",
+    "jsonResultsKey": "streams",
+    "torrentNameTargetKey": "behaviorHints.filename",
+    "sizeAttr": "behaviorHints.videoSize",
+    "searchPattern": {
+      "movie": "movie/%imdbId",
+      "tv": "series/%imdbId:%season:%episode"
+    },
+    "url": "https://stremthru.13377001.xyz/stremio/torz/eyJpbmRleGVycyI6bnVsbCwic3RvcmVzIjpbeyJjIjoicDJwIiwidCI6IiJ9XX0=/stream/%searchPattern.json"
   }
 ]
