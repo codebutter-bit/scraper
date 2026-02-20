@@ -27,7 +27,7 @@
       "movie": "movie/%imdbId",
       "tv": "series/%imdbId:%season:%episode"
     },
-    "url": "https://mediafusion.stremio.ru/D-O-PRtIlT9CguktYY3tijszoa1Gk0cLDGgSY5wBHepOVEGErg1Nezgyn06Cl21F1pYM-37Mu2_jDTL7qf-LZGCg/stream/%searchPattern.json"
+    "url": "https://mediafusionfortheweebs.midnightignite.me/D-bCuXd5ki7nZ1WvPaETSfGolQNAn1Z2tUahBFNFVLq73vJS_5MGh4NRZPxh5ao5y3pe7N7JF14V1JRrZDQ5RruUXbJN3_W_1yJrp3caQiLeg/stream/%searchPattern.json"
   },
     {
     "name": "Stremthru",
