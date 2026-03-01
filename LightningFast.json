@@ -12,7 +12,7 @@
       "movie": "movie/%imdbId",
       "tv": "series/%imdbId:%season:%episode"
     },
-    "url": "https://mediafusionfortheweebs.midnightignite.me/D-bCuXd5ki7nZ1WvPaETSfGolQNAn1Z2tUahBFNFVLq73vJS_5MGh4NRZPxh5ao5y3pe7N7JF14V1JRrZDQ5RruUXbJN3_W_1yJrp3caQiLeg/stream/%searchPattern.json"
+    "url": "https://mediafusionfortheweebs.midnightignite.me/D-JPpZFd2i8K8NFjTEDOFoYYZKfxv0RyIaBXdhVYa9m-ekkXhqkWB4WsahDS15AFA86fjwu7H2tB1wkkRpE-e17SJIhlmj_HX2-sPV0lC_2hg8XDANf_u4AHq1O-VS-C9ViZJWdm8dTGd4nsrFAVm0IjkAC2-M6YGZ2GPbG7nvklg/stream/%searchPattern.json"
   },
   {
     "name": "Torrentio",
