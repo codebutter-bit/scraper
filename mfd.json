@@ -1,9 +1,9 @@
-  [{
+  [  {
     "name": "Mediafusion",
-    "type": "json_imdb",
+    "type": "reg",
     "imdbType": "movie",
-    "itemType": "info_hash",
-    "infoHashTargetKey": "infoHash",
+    "itemType": "http_url",
+    "httpUrlTargetKey": "url",
     "jsonResultsKey": "streams",
     "torrentNameTargetKey": "behaviorHints.filename",
     "sizeAttr": "behaviorHints.videoSize",
@@ -12,4 +12,4 @@
       "tv": "series/%imdbId:%season:%episode"
     },
     "registerUrl": "https://mediafusion.elfhosted.com/encrypt-user-data"
-  }]
+  },]
