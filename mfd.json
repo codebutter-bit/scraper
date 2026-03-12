@@ -12,4 +12,4 @@
       "tv": "series/%imdbId:%season:%episode"
     },
     "registerUrl": "https://mediafusion.elfhosted.com/encrypt-user-data"
-  },]
+  }]
