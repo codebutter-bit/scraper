@@ -4,7 +4,7 @@
   "imdbType": "movie",
   "itemType": "http_url",
   "httpUrlTargetKey": "url",
-  "encrypt": "encrypt-user-data",
+  "mode": "encrypt-user-data",
   "jsonResultsKey": "streams",
   "torrentNameTargetKey": "behaviorHints.filename",
   "sizeAttr": "behaviorHints.videoSize",
