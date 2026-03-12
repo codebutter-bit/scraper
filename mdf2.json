@@ -1,9 +1,10 @@
 [{
   "name": "Mediafusion",
-  "type": "reg",
+  "type": "reg_hash",
   "imdbType": "movie",
   "itemType": "http_url",
   "httpUrlTargetKey": "url",
+  "encrypt": "encrypt-user-data",
   "jsonResultsKey": "streams",
   "torrentNameTargetKey": "behaviorHints.filename",
   "sizeAttr": "behaviorHints.videoSize",
@@ -11,51 +12,6 @@
     "movie": "movie/%imdbId",
     "tv": "series/%imdbId:%season:%episode"
   },
-  "registerUrl": "https://mediafusion.elfhosted.com/encrypt-user-data"
-},{
-    "name": "Mediafusion",
-    "type": "json_imdb",
-    "imdbType": "movie",
-    "itemType": "info_hash",
-    "infoHashTargetKey": "infoHash",
-    "jsonResultsKey": "streams",
-    "torrentNameTargetKey": "behaviorHints.filename",
-    "sizeAttr": "behaviorHints.videoSize",
-    "searchPattern": {
-      "movie": "movie/%imdbId",
-      "tv": "series/%imdbId:%season:%episode"
-    },
-    "url": "https://mediafusionfortheweebs.midnightignite.me/D-JPpZFd2i8K8NFjTEDOFoYYZKfxv0RyIaBXdhVYa9m-ekkXhqkWB4WsahDS15AFA86fjwu7H2tB1wkkRpE-e17SJIhlmj_HX2-sPV0lC_2hg8XDANf_u4AHq1O-VS-C9ViZJWdm8dTGd4nsrFAVm0IjkAC2-M6YGZ2GPbG7nvklg/stream/%searchPattern.json"
-  },
-  {
-    "name": "Torrentio",
-    "type": "json_imdb",
-    "imdbType": "tv",
-    "itemType": "info_hash",
-    "infoHashTargetKey": "infoHash",
-    "jsonResultsKey": "streams",
-    "torrentNameTargetKey": "title",
-    "sizePattern": "💾\\s*([\\d.]+)\\s*(GB|MB)",
-    "searchPattern": {
-      "movie": "movie/%imdbId",
-      "tv": "series/%imdbId:%season:%episode"
-    },
-    "url": "https://torrentio.strem.fun/sort=qualitysize|limit=7/stream/%searchPattern.json"
-  },
-    {
-    "name": "Stremthru",
-    "type": "json_imdb",
-    "imdbType": "movie",
-    "itemType": "info_hash",
-    "infoHashTargetKey": "infoHash",
-    "jsonResultsKey": "streams",
-    "torrentNameTargetKey": "behaviorHints.filename",
-    "sizeAttr": "behaviorHints.videoSize",
-    "searchPattern": {
-      "movie": "movie/%imdbId",
-      "tv": "series/%imdbId:%season:%episode"
-    },
-    "url": "https://stremthru.13377001.xyz/stremio/torz/eyJpbmRleGVycyI6bnVsbCwic3RvcmVzIjpbeyJjIjoicDJwIiwidCI6IiJ9XX0=/stream/%searchPattern.json"
-  }
-
+  "url": "https://mediafusion.elfhosted.com"
+}
 ]
