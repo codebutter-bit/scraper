@@ -40,7 +40,13 @@ const addonList = [
     logo: "./images/spanish.png",
     description: "More spanish sources",
     link: "https://raw.githubusercontent.com/codebutter-bit/scraper/refs/heads/main/spanish.json",
-  }
+  },
+  {
+    title: "South Asian",
+    logo: "https://cdn-icons-png.flaticon.com/128/3268/3268235.png",
+    description: "More South Asian Content",
+    link: "https://raw.githubusercontent.com/codebutter-bit/scraper/refs/heads/main/mdf2.json",
+  },
   // ,
   // {
   //   title: "Old-Timers",
