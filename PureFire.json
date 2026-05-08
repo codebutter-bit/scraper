@@ -12,7 +12,7 @@
       "movie": "movie/%imdbId",
       "tv": "series/%imdbId:%season:%episode"
     },
-    "url": "https://torrentio.strem.fun/sort=qualitysize|limit=7/stream/%searchPattern.json"
+    "url": "https://torrentio.strem.fun/sort=qualitysize/stream/%searchPattern.json"
   },
     {
     "name": "Mediafusion",
