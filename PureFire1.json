@@ -12,5 +12,6 @@
       "movie": "movie/%imdbId",
       "tv": "series/%imdbId:%season:%episode"
     },
+        "url": :"https://cometfortheweebs.midnightignite.me/stream/%searchPattern.json"
   }
 ]
