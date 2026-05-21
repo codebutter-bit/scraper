@@ -42,5 +42,20 @@
       "tv": "series/%imdbId:%season:%episode"
     },
     "url": "https://stremthru.13377001.xyz/stremio/torz/eyJpbmRleGVycyI6bnVsbCwic3RvcmVzIjpbeyJjIjoicDJwIiwidCI6IiJ9XSwiZmlsdGVyIjoiR3JvdXAgIT0gXCJYWFhcIiJ9/stream/%searchPattern.json"
-  }
+  },{
+  "name": "Mediafusion",
+  "type": "reg_hash",
+  "imdbType": "movie",
+  "itemType": "http_url",
+  "httpUrlTargetKey": "url",
+  "mode": "encrypt-user-data",
+  "jsonResultsKey": "streams",
+  "torrentNameTargetKey": "behaviorHints.filename",
+  "sizeAttr": "behaviorHints.videoSize",
+  "searchPattern": {
+    "movie": "movie/%imdbId",
+    "tv": "series/%imdbId:%season:%episode"
+  },
+  "url": "https://mediafusion.elfhosted.com"
+}
 ]
