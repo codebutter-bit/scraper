@@ -1,41 +1,47 @@
-[{
-    "name":"Torrentio-TV",
-    "url":"https://torrentio.strem.fun/sort=qualitysize|limit=7/stream/series/%imdbId.json",
-    "type":"json_imdb",
-    "imdbType":"tv",
-    "infoHashTargetKey":"infoHash",
-    "itemType":"info_hash",
-    "jsonResultsKey":"streams",
-    "torrentNameTargetKey":"title"
+[
+  {
+    "name": "Mediafusion",
+    "type": "json_imdb",
+    "imdbType": "movie",
+    "itemType": "info_hash",
+    "infoHashTargetKey": "infoHash",
+    "jsonResultsKey": "streams",
+    "torrentNameTargetKey": "behaviorHints.filename",
+    "sizeAttr": "behaviorHints.videoSize",
+    "searchPattern": {
+      "movie": "movie/%imdbId",
+      "tv": "series/%imdbId:%season:%episode"
+    },
+    "url": "https://mediafusionfortheweebs.midnightignite.me/D-JPpZFd2i8K8NFjTEDOFoYYZKfxv0RyIaBXdhVYa9m-ekkXhqkWB4WsahDS15AFA86fjwu7H2tB1wkkRpE-e17SJIhlmj_HX2-sPV0lC_2hg8XDANf_u4AHq1O-VS-C9ViZJWdm8dTGd4nsrFAVm0IjkAC2-M6YGZ2GPbG7nvklg/stream/%searchPattern.json"
   },
   {
-    "name":"Torrentio-Movie",
-    "url":"https://torrentio.strem.fun/sort=qualitysize|limit=7/stream/movie/%imdbId.json",
-    "type":"json_imdb",
-    "imdbType":"movie",
-    "infoHashTargetKey":"infoHash",
-    "itemType":"info_hash",
-    "jsonResultsKey":"streams",
-    "torrentNameTargetKey":"title"
+    "name": "Torrentio",
+    "type": "json_imdb",
+    "imdbType": "tv",
+    "itemType": "info_hash",
+    "infoHashTargetKey": "infoHash",
+    "jsonResultsKey": "streams",
+    "torrentNameTargetKey": "title",
+    "sizePattern": "💾\\s*([\\d.]+)\\s*(GB|MB)",
+    "searchPattern": {
+      "movie": "movie/%imdbId",
+      "tv": "series/%imdbId:%season:%episode"
+    },
+    "url": "https://torrentio.strem.fun/sort=qualitysize|limit=20/stream/%searchPattern.json"
   },
     {
-    "name":"M-Movie",
-    "url":"https://mediafusion.elfhosted.com/D-h5XZdc-GKj9tvLuwtL8S-h3Y5RyeMAHw8N_VRjmeON2p2lxdB57OCbAAseop_Rlc5ILHWBji7SX7NX6oG80KBfZpxxzuS-BJLzjSSrxaMhDUzPple7XCZlJq0KkZhF3LpgW78jw2yPHvczj5rZxxbsjwt1VgjkbAcCWyTOPYA-mQSWcYzi-_SVwHNkiKT0HHczOrUzQUOoN9p9G0y6kXqNrzU9Dil1qqGp3MdJrmK_L8li3-9LRvp0bNdtA7_cnhzTPse0vgbcEQKJMLbJwahDnEoaiDfr1jYFPtvaVjFKywts-nU6aXDfGouyXphOhrrgvUJr9UTdGU8zm-c3dKyfiwIJ5zCpBfg1gPESl-67TsResyGmzCYL5fzsXdYGFObUcouAsIZMznN4W96XsJYERj9EC_Yrvz5dvnvWNtWEPJlKHV8H1cLfP15iJQEFGdg33otL9HSUk0TmQlZKsvf-gHHLCzMk4y-Tb1gqoQRTk/stream/movie/%imdbId.json",
-    "type":"json_imdb",
-    "imdbType":"movie",
-    "infoHashTargetKey":"infoHash",
-    "itemType":"info_hash",
-    "jsonResultsKey":"streams",
-    "torrentNameTargetKey":"behaviorHints.filename"
-  },
-  {
-    "name":"M-TV",
-    "url":"https://mediafusion.elfhosted.com/D-h5XZdc-GKj9tvLuwtL8S-h3Y5RyeMAHw8N_VRjmeON2p2lxdB57OCbAAseop_Rlc5ILHWBji7SX7NX6oG80KBfZpxxzuS-BJLzjSSrxaMhDUzPple7XCZlJq0KkZhF3LpgW78jw2yPHvczj5rZxxbsjwt1VgjkbAcCWyTOPYA-mQSWcYzi-_SVwHNkiKT0HHczOrUzQUOoN9p9G0y6kXqNrzU9Dil1qqGp3MdJrmK_L8li3-9LRvp0bNdtA7_cnhzTPse0vgbcEQKJMLbJwahDnEoaiDfr1jYFPtvaVjFKywts-nU6aXDfGouyXphOhrrgvUJr9UTdGU8zm-c3dKyfiwIJ5zCpBfg1gPESl-67TsResyGmzCYL5fzsXdYGFObUcouAsIZMznN4W96XsJYERj9EC_Yrvz5dvnvWNtWEPJlKHV8H1cLfP15iJQEFGdg33otL9HSUk0TmQlZKsvf-gHHLCzMk4y-Tb1gqoQRTk/stream/series/%imdbId.json",
-    "type":"json_imdb",
-    "imdbType":"tv",
-    "infoHashTargetKey":"infoHash",
-    "itemType":"info_hash",
-    "jsonResultsKey":"streams",
-    "torrentNameTargetKey":"behaviorHints.filename"
+    "name": "Stremthru",
+    "type": "json_imdb",
+    "imdbType": "movie",
+    "itemType": "info_hash",
+    "infoHashTargetKey": "infoHash",
+    "jsonResultsKey": "streams",
+    "torrentNameTargetKey": "behaviorHints.filename",
+    "sizeAttr": "behaviorHints.videoSize",
+    "searchPattern": {
+      "movie": "movie/%imdbId",
+      "tv": "series/%imdbId:%season:%episode"
+    },
+    "url": "https://stremthru.13377001.xyz/stremio/torz/eyJpbmRleGVycyI6bnVsbCwic3RvcmVzIjpbeyJjIjoicDJwIiwidCI6IiJ9XSwiZmlsdGVyIjoiR3JvdXAgIT0gXCJYWFhcIiJ9/stream/%searchPattern.json"
   }
 ]
