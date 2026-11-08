@@ -30,6 +30,21 @@
     "url": "https://mediafusionfortheweebs.midnightignite.me/D-JPpZFd2i8K8NFjTEDOFoYYZKfxv0RyIaBXdhVYa9m-ekkXhqkWB4WsahDS15AFA86fjwu7H2tB1wkkRpE-e17SJIhlmj_HX2-sPV0lC_2hg8XDANf_u4AHq1O-VS-C9ViZJWdm8dTGd4nsrFAVm0IjkAC2-M6YGZ2GPbG7nvklg/stream/%searchPattern.json"
   },
     {
+    "name": "Meteor",
+    "type": "json_imdb",
+    "imdbType": "movie",
+    "itemType": "info_hash",
+    "infoHashTargetKey": "infoHash",
+    "jsonResultsKey": "streams",
+    "torrentNameTargetKey": "behaviorHints.filename",
+    "sizeAttr": "behaviorHints.videoSize",
+    "searchPattern": {
+      "movie": "movie/%imdbId",
+      "tv": "series/%imdbId:%season:%episode"
+    },
+    "url": "https://meteorfortheweebs.midnightignite.me/eyJjYWNoZWRPbmx5Ijp0cnVlLCJza2lwUmVsZWFzZUZpbHRlciI6dHJ1ZSwicmVtb3ZlVHJhc2giOmZhbHNlLCJyZW1vdmVTYW1wbGVzIjpmYWxzZSwiYWxsb3dBZHVsdCI6ZmFsc2UsImV4Y2x1ZGUzRCI6ZmFsc2UsImVuYWJsZVNlYURleCI6ZmFsc2UsInNob3dZb3VyTWVkaWEiOmZhbHNlLCJ5b3VyTWVkaWFMZWdhY3lNb2RlIjpmYWxzZSwibWluU2VlZGVycyI6MCwibWF4UmVzdWx0cyI6MCwibWF4UGVyUmVzb2x1dGlvbiI6MCwicmVzb2x1dGlvbnMiOltdLCJleGNsdWRlZFJlc29sdXRpb25zIjpbIjQ4MHAiXSwicHJlZmVycmVkTGFuZ3MiOlsiZW4iLCJtdWx0aSJdLCJsYW5ndWFnZXMiOltdLCJleGNsdWRlZExhbmdzIjpbInJ1Il0sInJlc3VsdEZvcm1hdCI6WyJ0aXRsZSIsInF1YWxpdHkiLCJzaXplIiwiYXVkaW8iXSwibGFuZ3VhZ2VGb3JtYXQiOiJmbGFncyIsInNvcnRPcmRlciI6WyJ5b3VybWVkaWEiLCJjYWNoZWQiLCJyZXNvbHV0aW9uIiwicXVhbGl0eSIsInNjb3JlIiwiaGRyIiwic2VhZGV4IiwibGFuZ3VhZ2UiLCJjb2RlYyIsInNpemUiLCJzZWVkZXJzIiwicGFjayJdLCJhbGxvd1AyUCI6dHJ1ZSwiZXhjbHVkZWRTb3VyY2VzIjpbXX0/stream/%searchPattern.json"
+  },
+    {
     "name": "Stremthru",
     "type": "json_imdb",
     "imdbType": "movie",
