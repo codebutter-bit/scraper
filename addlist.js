@@ -11,12 +11,12 @@ const addonList = [
     description: "Fastest results possible",
     link: "https://raw.githubusercontent.com/codebutter-bit/scraper/refs/heads/main/LightningFast.json",
   },
-     {
-    title: "Pure Fire",
-    logo: "https://cdn-icons-png.flaticon.com/512/10760/10760659.png",
-    description: "A lot more sources!",
-    link: "https://raw.githubusercontent.com/codebutter-bit/scraper/refs/heads/main/PureFire.json",
-  },
+  //    {
+  //   title: "Pure Fire",
+  //   logo: "https://cdn-icons-png.flaticon.com/512/10760/10760659.png",
+  //   description: "A lot more sources!",
+  //   link: "https://raw.githubusercontent.com/codebutter-bit/scraper/refs/heads/main/PureFire.json",
+  // },
   // {
   //   title: "Ultra-Fast",
   //   logo: "./images/ff.png",
