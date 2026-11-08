@@ -8,7 +8,7 @@ const addonList = [
     {
     title: "Lightning Fast",
     logo: "https://cdn-icons-png.flaticon.com/512/5346/5346469.png",
-    description: "Fastest results possible",
+    description: "Really fast results",
     link: "https://raw.githubusercontent.com/codebutter-bit/scraper/refs/heads/main/LightningFast.json",
   },
   //    {
